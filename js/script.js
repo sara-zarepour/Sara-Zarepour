@@ -34,15 +34,3 @@ document.querySelectorAll('a').forEach(links => {
     }
 
 });
-
-var i = 0;
-var txt = 'سارا هستم';
-var speed = 50;
-
-function typeWriter() {
-    if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-}
